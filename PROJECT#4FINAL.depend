@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1667930514 source:c:\users\camer\onedrive\documents\cs-355\project#4final\main.cpp
+	"Game.h"
+
+1667930512 c:\users\camer\onedrive\documents\cs-355\project#4final\game.h
+	"Player.h"
+	"BasicPlayer.h"
+	"HPSPPlayer.h"
+	"LVLPlayer.h"
+	<string>
+	"ull.h"
+	"Item.h"
+
+1667930515 c:\users\camer\onedrive\documents\cs-355\project#4final\player.h
+	"ull.h"
+	"Item.h"
+	"ConsumeItem.h"
+	"UseItem.h"
+	"EquipItem.h"
+	<string>
+	"MapV2.h"
+
+1667930515 c:\users\camer\onedrive\documents\cs-355\project#4final\ull.h
+	<iostream>
+	<cassert>
+
+1667930513 c:\users\camer\onedrive\documents\cs-355\project#4final\item.h
+	"structs.h"
+	<string>
+	<iostream>
+	<vector>
+
+1667930515 c:\users\camer\onedrive\documents\cs-355\project#4final\structs.h
+
+1667930511 c:\users\camer\onedrive\documents\cs-355\project#4final\consumeitem.h
+	<iostream>
+	"ull.h"
+	"Item.h"
+
+1667930515 c:\users\camer\onedrive\documents\cs-355\project#4final\useitem.h
+	<iostream>
+	"ull.h"
+	"Item.h"
+
+1667931579 c:\users\camer\onedrive\documents\cs-355\project#4final\equipitem.h
+	<iostream>
+	"ull.h"
+	"Item.h"
+
+1667930514 c:\users\camer\onedrive\documents\cs-355\project#4final\mapv2.h
+	<iostream>
+	<vector>
+	<string>
+	"Map.h"
+	<algorithm>
+
+1667931604 c:\users\camer\onedrive\documents\cs-355\project#4final\map.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+	"IFDParser.h"
+	"LinkData.h"
+	"Area.h"
+
+1667930513 c:\users\camer\onedrive\documents\cs-355\project#4final\ifdparser.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+	"ull.h"
+	"Item.h"
+	"ConsumeItem.h"
+	"UseItem.h"
+	"EquipItem.h"
+	"LinkData.h"
+	"Area.h"
+	"areaNode.h"
+
+1667930513 c:\users\camer\onedrive\documents\cs-355\project#4final\linkdata.h
+	<iostream>
+
+1667930511 c:\users\camer\onedrive\documents\cs-355\project#4final\area.h
+	<string>
+	<iostream>
+	"ull.h"
+	"Item.h"
+	"ConsumeItem.h"
+	"UseItem.h"
+	"EquipItem.h"
+
+1667930511 c:\users\camer\onedrive\documents\cs-355\project#4final\areanode.h
+
+1667930511 c:\users\camer\onedrive\documents\cs-355\project#4final\basicplayer.h
+	"Player.h"
+
+1667930512 c:\users\camer\onedrive\documents\cs-355\project#4final\hpspplayer.h
+	"Player.h"
+
+1667931418 c:\users\camer\onedrive\documents\cs-355\project#4final\lvlplayer.h
+	"Player.h"
+
