@@ -1,0 +1,182 @@
+<game>
+	<ptype>lvl</ptype>
+
+	%Area 1
+	<area>
+		<desc>You find yourself in a jail cell. You can't stay here.</desc>
+		<feats>0,0</feats>
+	</area>
+
+        <item>
+
+		<use>
+			<name>Warden's Key</name>
+			<desc>You find a ring of keys. I wonder if they could be put to use?</desc>
+			<star>1</star>
+			<actmess>You unlock the jail cell. Where to go now?</actmess>
+			<actar>1</actar>
+			<rule>1,u,2</rule>
+			<rule>1,d,8</rule>
+		</use>
+       </item>
+
+	%Area 2
+	<area>
+		<desc>Empty hallway. Seems there are many places to go.</desc>
+		<feats>0,0</feats>
+	</area>
+
+	<item>
+	    	<equip>
+			<name>Mop</name>
+			<desc>Maybe you can disguise yourself as a janitor?</desc>
+			<star>2</star>
+			<actmess>Nobody suspects a guy mopping the floors right?</actmess>
+			<actar>0</actar>
+			<buff>10,1</buff>
+		</equip>
+	</item>
+	%Area 3
+	<area>
+		<desc>Security Control Room. Luckily the guard is asleep...</desc>
+		<feats>0,0</feats>
+	</area>
+	
+	<item>
+		<equip>
+			<name>Guard Uniform</name>
+			<desc>The perfect disguise.</desc>
+			<star>3</star>
+			<actmess>Dont forget the name on your tag...</actmess>
+			<actar>0</actar>
+			<buff>10,1</buff>
+
+		</equip>
+	</item>
+			
+	%Area 4
+	<area>
+		<desc>Woodshop Class. There doesn't seem to be anyone.</desc>
+		<feats>0,0</feats>
+	</area>
+	
+	<item>
+		<use>
+			<name>Floor Vent</name>
+			<desc>Maybe it can be moved?</desc>
+			<star>4</star>
+			<actmess>You move the floor vent to reveal a hidden tunnel</actmess>
+			<actar>4</actar>
+			<rule>4,u,5</rule>
+		</use>
+	</item>
+
+	%Area 5
+	<area>
+		<desc>You jump in the tunnel to be greeted by El Chapo's henchman, and they dont appreciate visitors</desc>
+		<feats>1,0</feats>
+	</area>
+	
+	%Area 6
+	<area> 
+		<desc>Mess Hall</desc>
+		<feats>0,0</feats>
+	</area>
+
+	<item>
+		<consume>
+			<name>Leftover Scraps</name>
+			<desc>Looks edible.</desc>
+			<star>6</star>
+			<actmess>Suprisingly not bad...</actmess>
+			<effect>1,10</effect>
+		</consume>
+	</item>
+
+	%Area 7
+	<area>
+		<desc>You see an old friend is one of the lunch ladies and she provides your escape!!</desc>
+		<feats>0,1</feats>
+	</area>
+
+	%Area 8
+	<area>
+		<desc>Your celly takes the key to break the cell window revealing the Prison Yard. The guards notice you and your life sentence comes to an abrupt end.</desc>
+		<feats>1,0</feats>
+	</area>
+	
+	%Area 9
+	<area>
+		<desc>Storage Room. Nobody is here.</desc>
+		<feats>0,0</feats>
+	</area>
+	
+	<item>
+		<use>
+			<name>Pickaxe</name>
+			<desc>Looks pretty sharp to me</desc>
+			<star>9</star>
+			<actmess>You chip away at the wall slowy revealing the light....</actmess>
+			<actar>9</actar>
+			<rule>9,u,10</rule>
+		</use>
+	</item>
+
+	<item>
+		<consume>
+			<name>Weed Killer</name>
+			<desc>Kills weeds. hmm.</desc>
+			<star>9</star>
+			<actmess>Probably shouldn't have done that.</actmess>
+			<actar>0</actar>
+			<effect>0,25</effect>
+		</consume>
+	</item>
+		
+	<item>
+		<equip>
+			<name>Kevlar Vest</name>
+			<desc>This could prove to be useful...</desc>
+			<star>9</star>
+			<actmess>Little extra weight never hurt anyone</actmess>
+			<actar>0</actar>
+			<buff>15,1</buff>
+		</equip>
+	</item>
+	
+	%Area 10
+	<area>
+		<desc>You manage to fit through the hole in the wall, greeted by a getaway car.</desc>
+		<feats>0,1</feats>
+	</area>
+	%Area 11
+	<area>
+		<desc>Your celly takes the key to break the cell window revealing the Prison Yard. Luckily the guards weren't looking your way and you manage to escape!!</desc>
+		<feats>0,1</feats>
+	</area>
+	%Area 12
+	<area>
+		<desc>El Chapo's henchman are feeling generous today and aide in your escape</desc>
+		<feats>0,1</feats>
+	</area>
+	<levels>
+		<levelset>10,8,11</levelset>
+		<levelset>15,5,12</levelset>
+	</levels>
+			
+	<links>
+		<linkset>1,1,1,1</linkset>
+		<linkset>6,1,3,4</linkset>
+		<linkset>9,3,3,2</linkset>
+		<linkset>4,4,2,4</linkset>
+		<linkset>5,5,5,5</linkset>
+		<linkset>7,2,6,6</linkset>
+		<linkset>7,7,7,7</linkset>
+		<linkset>8,8,8,8</linkset>
+		<linkset>9,3,9,9</linkset>
+		<linkset>10,10,10,10</linkset>
+	</links>
+</game>
+
+	
+
